@@ -1,0 +1,8 @@
+{
+  "method": "decode RLP tx_data displayed by official Studio transaction dialog",
+  "transaction": "0xae27e0a2abdda1aa062cdbc681bff328671754e61301a482c504738741f675ea",
+  "address": "0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331",
+  "byte_identical": true,
+  "bytes": 10735,
+  "sha256": "934eaf1be7543f28bd8ba0a35eeb9529d9f84db6b1dbb1cbd68d5ad7990bdc68"
+}

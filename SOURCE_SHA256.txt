@@ -1,0 +1,1 @@
+934eaf1be7543f28bd8ba0a35eeb9529d9f84db6b1dbb1cbd68d5ad7990bdc68  contracts/fit_cert.py

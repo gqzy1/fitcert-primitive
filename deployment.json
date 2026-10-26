@@ -1,0 +1,65 @@
+{
+  "network": "Stable Studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331",
+  "source": "contracts/fit_cert.py",
+  "source_sha256": "934eaf1be7543f28bd8ba0a35eeb9529d9f84db6b1dbb1cbd68d5ad7990bdc68",
+  "record_id": "0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop",
+  "certificate_hash": "8eacfcc3c4015c31279d8fb0aa2667262051fa248e4fe14bf921d1ba19222097",
+  "transactions": [
+    {
+      "method": "deploy",
+      "hash": "0xae27e0a2abdda1aa062cdbc681bff328671754e61301a482c504738741f675ea",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "mode": "NORMAL",
+      "rotations": 0,
+      "observation": "evidence/deploy-observed.txt"
+    },
+    {
+      "method": "seal",
+      "hash": "0xa112db514221cd55b34f5f07f34b380b29b11586c96dbe322737f1f960cd00b4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "mode": "NORMAL",
+      "rotations": 0,
+      "observation": "evidence/seal-observed.txt"
+    },
+    {
+      "method": "assess",
+      "hash": "0x293c8911e123c864dacef628ab792f6e160bcfa5a4f18f21174dc084989f88b2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "mode": "NORMAL",
+      "rotations": 0,
+      "observation": "evidence/assess-observed.txt"
+    },
+    {
+      "method": "certify",
+      "hash": "0xf42e28fee35c6c93d2aa379ad332ad673af2e3ce55434c316fcce9f97ebcf465",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "consensus": "MAJORITY_AGREE",
+      "mode": "NORMAL",
+      "rotations": 0,
+      "observation": "evidence/certify-observed.txt"
+    }
+  ],
+  "readback": {
+    "state": "LATEST_FINAL / Studio Finalized",
+    "file": "evidence/finalized-record.json",
+    "matches_certify_output": true
+  },
+  "provenance": "Official Studio transaction dialogs and Finalized read UI; separately corroborated by the public Explorer. Text observations preserve collapsed nested objects and are not raw RPC JSON.",
+  "assessment_votes_note": "Three completed assessments agree; two validator executions cancelled after quorum. Not unanimity.",
+  "rpc_preflight": {
+    "eth_chainId": "terminal HTTP 403",
+    "eth_gasPrice": "terminal HTTP 403",
+    "studio_network_label": "chain 61999",
+    "terminal_access_resolved": false
+  }
+}

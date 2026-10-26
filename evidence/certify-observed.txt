@@ -1,0 +1,115 @@
+Transaction Method Call
+just now
+0xf42e28fee35c6c93d2aa379ad332ad673af2e3ce55434c316fcce9f97ebcf465
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":["0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop",1,]"method":"certify"}
+Output
+"{\"assessment_hash\":\"92c59dbaaf0e721d8b9786bc852b39a0ca9ed264e79d44e992b536897f05c9a4\",\"certificate\":{\"assessment_hash\":\"92c59dbaaf0e721d8b9786bc852b39a0ca9ed264e79d44e992b536897f05c9a4\",\"input_hash\":\"c23c67889fb338180077faa276ba28f68f5f9231878e1f8213d46fec980df95c\",\"matching\":[[0,1],[1,0]],\"version\":\"fitcert-1\"},\"certificate_hash\":\"8eacfcc3c4015c31279d8fb0aa2667262051fa248e4fe14bf921d1ba19222097\",\"id\":\"0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop\",\"input\":{\"items\":[\"Unit A: one laptop with HDMI output and USB-C output.\",\"Unit B: one laptop with HDMI output only; it has no USB-C output.\"],\"requests\":[\"One laptop with HDMI output.\",\"One laptop with USB-C output.\"],\"scope\":\"Fictional workshop equipment allocation. Each listed laptop is one distinct unit.\"},\"input_hash\":\"c23c67889fb338180077faa276ba28f68f5f9231878e1f8213d46fec980df95c\",\"matrix\":[[\"FIT\",\"FIT\"],[\"FIT\",\"NO\"]],\"owner\":\"0x32783b8e5a9fa8f27e743639c8f907764f59ea92\",\"proof\":{\"possible\":{\"cover\":{\"items\":[],\"requests\":[0,1]},\"hall\":{\"deficit\":0,\"neighbors\":[],\"requests\":[]},\"matching\":[[0,1],[1,0]],\"size\":2},\"status\":\"COMPLETE\",\"supported\":{\"cover\":{\"items\":[],\"requests\":[0,1]},\"hall\":{\"deficit\":0,\"neighbors\":[],\"requests\":[]},\"matching\":[[0,1],[1,0]],\"size\":2}},\"revision\":2,\"state\":\"CERTIFIED\"}"
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x63d72fE364368491E62a42B9C73c317Ce1ca8434
+openrouter / google/gemini-3-flash-preview
+SUCCESS
+0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9
+ERROR
+Idle
+Validator execution cancelled after quorum
+0x045291B293B9D68969c18B6637A8258038cf787A
+llm-router / policy:prd-gpt-5-4
+SUCCESS
+Agree
+0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE
+llm-router / policy:prd-gpt-oss
+SUCCESS
+Agree
+0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186
+llm-router / policy:prd-gemini
+SUCCESS
+Agree
+Full Transaction Data
+{
+activator:"0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+appeal_failed:0
+appeal_leader_timeout:false
+appeal_processing_time:0
+appeal_undetermined:false
+appeal_validators_timeout:false
+appealed:false
+blockHash:null
+blockNumber:null
+chainId:null
+config_rotation_rounds:3
+consensus_data:{}
+consensus_history:{}
+created_at:"2026-10-26T20:03:27.105069+00:00"
+created_timestamp:"1793045007"
+current_timestamp:"1793045041"
+data:{}
+eq_blocks_outputs:"0xcdc6c28000c0c080c5c480c28000"
+execution_mode:"NORMAL"
+from_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+gas:null
+gasPrice:null
+gaslimit:3
+hash:"0xf42e28fee35c6c93d2aa379ad332ad673af2e3ce55434c316fcce9f97ebcf465"
+last_leader:"0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+last_round:{}
+last_vote_timestamp:"1793045010"
+leader_only:false
+leader_timeout_validators:[]
+maxFeePerBlobGas:null
+maxFeePerGas:null
+maxPriorityFeePerGas:null
+messages:[]
+nonce:3
+num_of_initial_validators:5
+num_of_rounds:"1"
+origin_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+queue_position:"0"
+queue_type:"0"
+r:null
+random_seed:"0x0000000000000000000000000000000000000000000000000000000000000000"
+read_state_block_range:{}
+recipient:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+result:6
+result_name:"MAJORITY_AGREE"
+rotation_count:0
+s:null
+sender:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+sim_config:{}
+status:7
+statusName:"FINALIZED"
+timestamp_appeal:null
+timestamp_awaiting_finalization:1793045010
+to:null
+to_address:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+transactionIndex:null
+triggered_by:null
+triggered_on:null
+triggered_transactions:[]
+tx_data:"f84fb84c160461726773159c033078333237383362386535613966613866323765373433363339633866393037373634663539656139323a776f726b73686f7009066d6574686f643c6365727469667900"
+tx_execution_hash:"0x0ad0e864d18ce12588ebc7156f9071665ba22bbb3bab128721c89cd6afb330bb"
+tx_id:"0xf42e28fee35c6c93d2aa379ad332ad673af2e3ce55434c316fcce9f97ebcf465"
+tx_slot:"0"
+type:null
+typeHex:2
+v:null
+value:null
+value_credited:false
+yParity:null
+}

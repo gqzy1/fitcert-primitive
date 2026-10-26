@@ -1,0 +1,119 @@
+Transaction Method Call
+1 minute ago
+0x293c8911e123c864dacef628ab792f6e160bcfa5a4f18f21174dc084989f88b2
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":["0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop",0,]"method":"assess"}
+Output
+"{\"assessment_hash\":\"92c59dbaaf0e721d8b9786bc852b39a0ca9ed264e79d44e992b536897f05c9a4\",\"id\":\"0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop\",\"input\":{\"items\":[\"Unit A: one laptop with HDMI output and USB-C output.\",\"Unit B: one laptop with HDMI output only; it has no USB-C output.\"],\"requests\":[\"One laptop with HDMI output.\",\"One laptop with USB-C output.\"],\"scope\":\"Fictional workshop equipment allocation. Each listed laptop is one distinct unit.\"},\"input_hash\":\"c23c67889fb338180077faa276ba28f68f5f9231878e1f8213d46fec980df95c\",\"matrix\":[[\"FIT\",\"FIT\"],[\"FIT\",\"NO\"]],\"owner\":\"0x32783b8e5a9fa8f27e743639c8f907764f59ea92\",\"proof\":{\"possible\":{\"cover\":{\"items\":[],\"requests\":[0,1]},\"hall\":{\"deficit\":0,\"neighbors\":[],\"requests\":[]},\"matching\":[[0,1],[1,0]],\"size\":2},\"status\":\"COMPLETE\",\"supported\":{\"cover\":{\"items\":[],\"requests\":[0,1]},\"hall\":{\"deficit\":0,\"neighbors\":[],\"requests\":[]},\"matching\":[[0,1],[1,0]],\"size\":2}},\"revision\":1,\"state\":\"COMPLETE\"}"
+Equivalence Principles Output
+Equivalence Principle #0:
+{"matrix":[["FIT","FIT",],["FIT","NO",],]}
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A
+llm-router / policy:prd-gemini
+SUCCESS
+Agree
+0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4
+ERROR
+Idle
+Validator execution cancelled after quorum
+0x5e84e17266a193077728229751aC8A1dD24be146
+ERROR
+Idle
+Validator execution cancelled after quorum
+0x336458747913FE397be82c4F0926ACeB3ab13618
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+0xCe0B66448435cA53665C954705Abd753515594Cf
+llm-router / policy:prd-qwen
+SUCCESS
+Agree
+Full Transaction Data
+{
+activator:"0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+appeal_failed:0
+appeal_leader_timeout:false
+appeal_processing_time:0
+appeal_undetermined:false
+appeal_validators_timeout:false
+appealed:false
+blockHash:null
+blockNumber:null
+chainId:null
+config_rotation_rounds:3
+consensus_data:{}
+consensus_history:{}
+created_at:"2026-10-26T20:01:48.178817+00:00"
+created_timestamp:"1793044908"
+current_timestamp:"1793044951"
+data:{}
+eq_blocks_outputs:"0xcdc6c28000c0c080c5c480c28000"
+execution_mode:"NORMAL"
+from_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+gas:null
+gasPrice:null
+gaslimit:2
+hash:"0x293c8911e123c864dacef628ab792f6e160bcfa5a4f18f21174dc084989f88b2"
+last_leader:"0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+last_round:{}
+last_vote_timestamp:"1793044921"
+leader_only:false
+leader_timeout_validators:[]
+maxFeePerBlobGas:null
+maxFeePerGas:null
+maxPriorityFeePerGas:null
+messages:[]
+nonce:2
+num_of_initial_validators:5
+num_of_rounds:"1"
+origin_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+queue_position:"0"
+queue_type:"0"
+r:null
+random_seed:"0x0000000000000000000000000000000000000000000000000000000000000000"
+read_state_block_range:{}
+recipient:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+result:6
+result_name:"MAJORITY_AGREE"
+rotation_count:0
+s:null
+sender:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+sim_config:{}
+status:7
+statusName:"FINALIZED"
+timestamp_appeal:null
+timestamp_awaiting_finalization:1793044921
+to:null
+to_address:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+transactionIndex:null
+triggered_by:null
+triggered_on:null
+triggered_transactions:[]
+tx_data:"f84eb84b160461726773159c033078333237383362386535613966613866323765373433363339633866393037373634663539656139323a776f726b73686f7001066d6574686f643461737365737300"
+tx_execution_hash:"0x2ffe5a6daea73aa89790f14f55dda1bc516f37e48987e7c4eba94008e1055a03"
+tx_id:"0x293c8911e123c864dacef628ab792f6e160bcfa5a4f18f21174dc084989f88b2"
+tx_slot:"0"
+type:null
+typeHex:2
+v:null
+value:null
+value_credited:false
+yParity:null
+}

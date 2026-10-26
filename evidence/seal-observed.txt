@@ -1,0 +1,116 @@
+Transaction Method Call
+just now
+0xa112db514221cd55b34f5f07f34b380b29b11586c96dbe322737f1f960cd00b4
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":["workshop","{\"scope\":\"Fictional workshop equipment allocation. Each listed laptop is one distinct unit.\",\"items\":[\"Unit A: one laptop with HDMI output and USB-C output.\",\"Unit B: one laptop with HDMI output only; it has no USB-C output.\"],\"requests\":[\"One laptop with HDMI output.\",\"One laptop with USB-C output.\"]}",]"method":"seal"}
+Output
+"0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop"
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0xe06A34A1eBd398AF3399d08593B8c3C433CdD947
+llm-router / policy:prd-gpt-5-4
+SUCCESS
+Agree
+0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B
+llm-router / policy:prd-kimi
+SUCCESS
+Agree
+0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9
+llm-router / policy:prd-minimax
+SUCCESS
+Agree
+0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE
+llm-router / policy:prd-gpt-oss
+SUCCESS
+Agree
+0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+Full Transaction Data
+{
+activator:"0xe06A34A1eBd398AF3399d08593B8c3C433CdD947"
+appeal_failed:0
+appeal_leader_timeout:false
+appeal_processing_time:0
+appeal_undetermined:false
+appeal_validators_timeout:false
+appealed:false
+blockHash:null
+blockNumber:null
+chainId:null
+config_rotation_rounds:3
+consensus_data:{}
+consensus_history:{}
+created_at:"2026-10-26T20:00:33.978811+00:00"
+created_timestamp:"1793044833"
+current_timestamp:"1793044867"
+data:{}
+eq_blocks_outputs:"0xcdc6c28000c0c080c5c480c28000"
+execution_mode:"NORMAL"
+from_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+gas:null
+gasPrice:null
+gaslimit:1
+hash:"0xa112db514221cd55b34f5f07f34b380b29b11586c96dbe322737f1f960cd00b4"
+last_leader:"0xe06A34A1eBd398AF3399d08593B8c3C433CdD947"
+last_round:{}
+last_vote_timestamp:"1793044836"
+leader_only:false
+leader_timeout_validators:[]
+maxFeePerBlobGas:null
+maxFeePerGas:null
+maxPriorityFeePerGas:null
+messages:[]
+nonce:1
+num_of_initial_validators:5
+num_of_rounds:"1"
+origin_address:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+queue_position:"0"
+queue_type:"0"
+r:null
+random_seed:"0x0000000000000000000000000000000000000000000000000000000000000000"
+read_state_block_range:{}
+recipient:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+result:6
+result_name:"MAJORITY_AGREE"
+rotation_count:0
+s:null
+sender:"0x32783b8e5A9FA8F27E743639c8f907764f59Ea92"
+sim_config:{}
+status:7
+statusName:"FINALIZED"
+timestamp_appeal:null
+timestamp_awaiting_finalization:1793044836
+to:null
+to_address:"0xb69c3E2fe1b78cF7d0Ef23d5a5f3bE05bE694331"
+transactionIndex:null
+triggered_by:null
+triggered_on:null
+triggered_transactions:[]
+tx_data:"f90151b9014d1604617267731544776f726b73686f70fc127b2273636f7065223a2246696374696f6e616c20776f726b73686f702065717569706d656e7420616c6c6f636174696f6e2e2045616368206c6973746564206c6170746f70206973206f6e652064697374696e637420756e69742e222c226974656d73223a5b22556e697420413a206f6e65206c6170746f7020776974682048444d49206f757470757420616e64205553422d43206f75747075742e222c22556e697420423a206f6e65206c6170746f7020776974682048444d49206f7574707574206f6e6c793b20697420686173206e6f205553422d43206f75747075742e225d2c227265717565737473223a5b224f6e65206c6170746f7020776974682048444d49206f75747075742e222c224f6e65206c6170746f702077697468205553422d43206f75747075742e225d7d066d6574686f64247365616c00"
+tx_execution_hash:"0x9b2f124149ae3425ff506880905d085df9679292ef9812cbed3d9b80262819a7"
+tx_id:"0xa112db514221cd55b34f5f07f34b380b29b11586c96dbe322737f1f960cd00b4"
+tx_slot:"0"
+type:null
+typeHex:2
+v:null
+value:null
+value_credited:false
+yParity:null
+}

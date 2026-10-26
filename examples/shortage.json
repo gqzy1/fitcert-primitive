@@ -1,0 +1,11 @@
+{
+  "scope": "Fictional workshop equipment allocation. Each listed laptop is one distinct unit.",
+  "items": [
+    "Unit A: one laptop with HDMI output and USB-C output.",
+    "Unit B: one laptop with HDMI output only; it has no USB-C output."
+  ],
+  "requests": [
+    "One laptop with USB-C output for station one.",
+    "One laptop with USB-C output for station two."
+  ]
+}
