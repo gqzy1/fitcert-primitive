@@ -55,11 +55,5 @@
     "matches_certify_output": true
   },
   "provenance": "Official Studio transaction dialogs and Finalized read UI; separately corroborated by the public Explorer. Text observations preserve collapsed nested objects and are not raw RPC JSON.",
-  "assessment_votes_note": "Three completed assessments agree; two validator executions cancelled after quorum. Not unanimity.",
-  "rpc_preflight": {
-    "eth_chainId": "terminal HTTP 403",
-    "eth_gasPrice": "terminal HTTP 403",
-    "studio_network_label": "chain 61999",
-    "terminal_access_resolved": false
-  }
+  "assessment_votes_note": "Three completed assessments agree; two validator executions cancelled after quorum. Not unanimity."
 }
