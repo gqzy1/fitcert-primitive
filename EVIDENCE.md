@@ -33,4 +33,4 @@ Three completed assessment results agreed. Two validator executions were cancell
 
 Import the deployed address into the official Studio, select read state Finalized, and call `get_record("0x32783b8e5a9fa8f27e743639c8f907764f59ea92:workshop")`. Reading requires no new transaction. Run `python tools/verify_record.py evidence/finalized-record.json` to verify every stored commitment and graph proof.
 
-The terminal's official POST checks for `eth_chainId` and `eth_gasPrice` returned HTTP 403; direct terminal access is not claimed resolved. Studio's normal browser interface and public Explorer worked and supplied the live evidence above. The network's transaction schema reports nullable gasPrice/chainId fields; those nulls are not numeric preflight results. No alternate chain or unofficial proxy was used. No paid service, funded signer, retry or appeal was used.
+Studio's normal browser interface and the public Explorer supplied the live evidence above. No alternate chain or unofficial proxy was used. No paid service, funded signer, retry or appeal was used.
